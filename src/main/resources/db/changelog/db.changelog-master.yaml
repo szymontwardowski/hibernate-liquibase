@@ -11,3 +11,9 @@ databaseChangeLog:
       file: db/changelog/changes/05-create-shopping-carts-table.yaml
   - include:
       file: db/changelog/changes/06-create-tickets-table.yaml
+  - include:
+      file: db/changelog/changes/07-create-countries-table.yaml
+  - include:
+      file: db/changelog/changes/08-create-actors-table.yaml
+  - include:
+      file: db/changelog/changes/09-add-country-to-movies.yaml

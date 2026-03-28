@@ -29,4 +29,3 @@ databaseChangeLog:
                     foreignKeyName: fk_tickets_users
                     referencedTableName: users
                     referencedColumnNames: id
-
