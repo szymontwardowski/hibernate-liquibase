@@ -17,3 +17,11 @@ databaseChangeLog:
       file: db/changelog/changes/08-create-actors-table.yaml
   - include:
       file: db/changelog/changes/09-add-country-to-movies.yaml
+  - include:
+      file: db/changelog/changes/07-create-countries-table.yaml
+  - include:
+          file: db/changelog/changes/08-create-actors-table.yaml
+  - include:
+          file: db/changelog/changes/09-add-country-to-movies.yaml
+  - include:
+          file: db/changelog/changes/10-create-movies-actors-table.yaml

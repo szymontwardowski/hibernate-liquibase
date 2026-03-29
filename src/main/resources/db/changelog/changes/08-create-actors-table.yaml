@@ -18,3 +18,11 @@ databaseChangeLog:
                   type: varchar(255)
                   constraints:
                     nullable: false
+              - column:
+                  name: country_id # <--- DODAJ TĘ KOLUMNĘ
+                  type: bigint
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_actors_countries
+                    referencedTableName: countries
+                    referencedColumnNames: id
