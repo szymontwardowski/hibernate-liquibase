@@ -22,7 +22,7 @@ databaseChangeLog:
                   name: country_id
                   type: bigint
                   constraints:
-                    nullable: false
+                    nullable: true # <--- ZMIEŃ Z false NA true
                     foreignKeyName: fk_actors_countries
                     referencedTableName: countries
                     referencedColumnNames: id
